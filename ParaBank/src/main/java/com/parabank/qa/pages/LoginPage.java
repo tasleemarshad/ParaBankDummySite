@@ -1,5 +1,9 @@
 package com.parabank.qa.pages;
 
-public class LoginPage {
+import com.parabank.qa.base.TestBase;
+
+public class LoginPage extends TestBase {
+	
+	
 
 }

@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.parabank.qa.testcases.RegisterPageTestcases">
+      <class name="com.parabank.qa.testcases.DashboardPageTestcases">
         <methods>
+          <include name="VerifyuserTittle"/>
           <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="VerifyRegisterPageTittle"/>
         </methods>
-      </class> <!-- com.parabank.qa.testcases.RegisterPageTestcases -->
+      </class> <!-- com.parabank.qa.testcases.DashboardPageTestcases -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
